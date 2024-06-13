@@ -1,10 +1,11 @@
-body{
+body {
     background-color: #FDF5FF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main-box{
+
+.main-box {
     background-color: #ffff;
     height: 403px;
     width: 541px;
@@ -13,24 +14,23 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-
 }
 
-.main-box_title p{
+.main-box_title p {
     font-size: 24px;
     font-weight: 700;
     color: #000;
     text-align: center;
 }
 
-.main-box_image{
+.main-box_image {
     display: flex;
     justify-content: center;
     height: 50%;
     margin-top: 5%;
 }
 
-.main-box_button{
+.main-box_button {
     width: 100%;
     height: 15%;
     position: absolute;
@@ -40,7 +40,7 @@ body{
     display: flex;
 }
 
-.main-box_button button{
+.main-box_button button {
     width: 100%;
     height: 100%;
     background-color: #B75FAB;
@@ -52,3 +52,46 @@ body{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+.main-box_textbox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0; /* Initial padding to move the input box down */
+
+
+}
+
+.main-box_textbox p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.main-box_textbox input {
+    width: 100%;
+    height: 40px; /* Fixed height instead of percentage for better control */
+    transition: border-color 0.25s ease, box-shadow 0.25s ease; /* Smoother and longer transition */
+    border: 3px solid #c0c0c0; /* Add a border */
+}
+
+.main-box_textbox input:focus {
+    border: 3px solid #b75fab;
+    outline: none;
+    box-shadow: 0 0 10px rgba(183, 95, 171, 0.5); /* Add box-shadow for a more pronounced effect */
+}
+
+#main-box_qrcode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
