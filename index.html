@@ -6,27 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Qr Code Generator</title>
     <link rel="stylesheet" href="/style.css">
+
+
+
 </head>
 <body>
 
-<div class="main-box">
 
+<div class="main-box" id="wireframe1">
     <div class="main-box_title">
-    <p>Generate Your QR Code</p>
+        <p>Generate Your QR Code</p>
+    </div>
+    <div class="main-box_image">
+        <img src="svg.jpg" alt="QR Code Illustration">
+    </div>
+    <div class="main-box_button">
+        <button id="getStartedBtn">Get Started</button>
+    </div>
+</div>
+
+
+<div class="main-box" id="wireframe2" style="display: none;">
+    <div class="main-box_title">
+        <p>Generate Your QR Code</p>
     </div>
 
-    <div class="main-box_image">
-        <img src="svg.jpg">
+    <div class="main-box_textbox">
+        <p>Your Url</p>
+        <input type="text" id="urlInput" placeholder="http://example.com ">
     </div>
 
     <div class="main-box_button">
-        <button>
-            Get Started
-        </button>
+        <button id="generateBtn">Generate</button>
+    </div>
+</div>
+
+
+<div class="main-box" id="wireframe3" style="display: none;">
+    <div class="main-box_title">
+        <p>Generate Your QR Code</p>
     </div>
 
+    <div>
+
+    </div>
+
+    <div class="main-box_textbox">
+        <p>Your Url</p>
+        <input type="text" id="urlInput1" placeholder="http://example.com ">
+    </div>
+
+    <div class="main-box_button">
+        <button id="generateBtn1">Generate</button>
+    </div>
 
 </div>
 
+<script src="qrcode.js"></script>
 </body>
 </html>
