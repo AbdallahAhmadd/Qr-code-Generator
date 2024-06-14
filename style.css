@@ -76,6 +76,7 @@ body {
     height: 40px; /* Fixed height instead of percentage for better control */
     transition: border-color 0.25s ease, box-shadow 0.25s ease; /* Smoother and longer transition */
     border: 3px solid #c0c0c0; /* Add a border */
+    border-radius: 10px;
 }
 
 .main-box_textbox input:focus {
