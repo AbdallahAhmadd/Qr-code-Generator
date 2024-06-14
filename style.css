@@ -93,6 +93,18 @@ body {
 
 }
 
+.main-box_textbox_input-icon{
+    position: relative;
+}
+
+.main-box_textbox_input-icon i{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
 
 
 
